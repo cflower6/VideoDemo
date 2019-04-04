@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
 
         VideoView videoView = (VideoView) findViewById(R.id.videoView);
 
-        videoView.setVideoPath("www2.gogoanime.io/karakuri-circus-episode-24");
+        videoView.setVideoPath("android.resources://" + getPackageName() + "/" + R.raw.demovideo);
 
         MediaController mediaController = new MediaController(this);
 
